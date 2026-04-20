@@ -41,7 +41,12 @@ header{
             .header-boglanish{
                 display: flex;
                 align-items: center;
-                gap: 35px;
+                gap: 25px;
+
+                .language{
+                    border: none;
+                    background: none;
+                }
             }
         }
     }

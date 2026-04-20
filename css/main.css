@@ -39,5 +39,9 @@ header .container .header-container .header-list .header-home:hover {
 header .container .header-container .header-boglanish {
   display: flex;
   align-items: center;
-  gap: 35px;
+  gap: 25px;
+}
+header .container .header-container .header-boglanish .language {
+  border: none;
+  background: none;
 }/*# sourceMappingURL=main.css.map */
