@@ -20,4 +20,9 @@ header .container .header-container {
   display: flex;
   align-items: center;
   justify-content: space-between;
+}
+header .container .header-container .header-list {
+  display: flex;
+  align-items: center;
+  gap: 25px;
 }/*# sourceMappingURL=main.css.map */
