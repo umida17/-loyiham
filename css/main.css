@@ -35,4 +35,9 @@ header .container .header-container .header-list .header-home {
 }
 header .container .header-container .header-list .header-home:hover {
   color: black;
+}
+header .container .header-container .header-boglanish {
+  display: flex;
+  align-items: center;
+  gap: 35px;
 }/*# sourceMappingURL=main.css.map */
