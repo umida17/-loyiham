@@ -13,4 +13,10 @@
 
 body {
   background: rgba(0, 0, 0, 0.5019607843);
+}
+
+header .container .header-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }/*# sourceMappingURL=main.css.map */
