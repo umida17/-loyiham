@@ -13,7 +13,7 @@
 }
 
 body {
-  background: rgba(0, 0, 0, 0.5019607843);
+  background: rgb(19, 19, 19);
 }
 
 header .container .header-container {
@@ -25,4 +25,14 @@ header .container .header-container .header-list {
   display: flex;
   align-items: center;
   gap: 35px;
+}
+header .container .header-container .header-list .header-home {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8980392157);
+}
+header .container .header-container .header-list .header-home:hover {
+  color: black;
 }/*# sourceMappingURL=main.css.map */
