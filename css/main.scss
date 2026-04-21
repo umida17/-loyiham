@@ -367,7 +367,18 @@ main{
                 align-items: center;
                 justify-content: space-between;
                 gap: 60px;
-                
+                .section4-mers{
+                    display: flex;
+                    align-items: center;
+                    gap: 15px;
+                    h2{
+                         font-weight: 500;
+                         font-size: 25px;
+                         line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #FFFFFFCC;
+                    }
+                }
             }
         }
     }
