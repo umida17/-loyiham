@@ -219,7 +219,7 @@ main{
                     text-align: center;
                     margin-bottom: 27px;
                 }
-                p{
+                .non{
                     width: 500px;
                      font-weight: 500;
                      font-size: 16px;
@@ -230,7 +230,51 @@ main{
                     margin: 0 auto;
                 }
 
-                
+                .section3-cards{
+                    margin-top: 90px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: space-between;
+                    gap: 50px;
+                    margin-bottom: 150px;
+                    .card{
+                       
+                        img{
+                            background: #6D6D6D4D;
+                            border-radius: 100px;
+                            padding: 18px;
+                           margin-left: 38px;
+                           margin-bottom: 30px;
+                        }
+                        p{
+                             font-weight: 500;
+                             font-size: 16px;
+                             line-height: 30px;
+                            letter-spacing: 0%;
+                            text-align: center;
+                            text-transform: capitalize;
+                            color: #FFFFFF;
+                            margin-bottom: 60px;
+                        }
+                        a{
+                           font-family: Gilroy;
+                            font-weight: 400;
+                            font-style: Regular;
+                            font-size: 17px;
+                            leading-trim: NONE;
+                            line-height: 100%;
+                            letter-spacing: 0%;
+                            text-align: center;
+                            text-transform: capitalize;
+                            text-decoration: underline;
+                            text-decoration-style: solid;
+                            text-decoration-offset: 0%;
+                            text-decoration-thickness: 0%;
+
+
+                        }
+                    }
+                }
             }
         }
     }
