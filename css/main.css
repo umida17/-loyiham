@@ -211,6 +211,8 @@ main .section3 .container .section3-container .section3-cards {
 }
 main .section3 .container .section3-container .section3-cards .card {
   text-align: center;
+  border-right: 1px solid #4A4A4A;
+  padding: 60px;
 }
 main .section3 .container .section3-container .section3-cards .card img {
   background: rgba(109, 109, 109, 0.3019607843);
@@ -579,6 +581,70 @@ main .section4 .container .section4-container .work .section4-mers h2 {
   line-height: 100%;
   letter-spacing: 0%;
   color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers h2:hover {
+  color: #F4C430;
 }
 main .section4 .container .section4-container .work .section4-mers {
   display: flex;
