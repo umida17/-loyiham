@@ -212,11 +212,13 @@ main .section3 .container .section3-container .section3-cards {
   gap: 50px;
   margin-bottom: 150px;
 }
+main .section3 .container .section3-container .section3-cards .card {
+  text-align: center;
+}
 main .section3 .container .section3-container .section3-cards .card img {
   background: rgba(109, 109, 109, 0.3019607843);
   border-radius: 100px;
   padding: 18px;
-  margin-left: 38px;
   margin-bottom: 30px;
 }
 main .section3 .container .section3-container .section3-cards .card p {
@@ -230,17 +232,90 @@ main .section3 .container .section3-container .section3-cards .card p {
   margin-bottom: 60px;
 }
 main .section3 .container .section3-container .section3-cards .card a {
-  font-family: Gilroy;
   font-weight: 400;
-  font-style: Regular;
   font-size: 17px;
-  leading-trim: NONE;
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
+}
+main .section3 .container .section3-container .section3-cards .card2 {
+  text-align: center;
+}
+main .section3 .container .section3-container .section3-cards .card2 img {
+  background: rgba(109, 109, 109, 0.3019607843);
+  border-radius: 100px;
+  padding: 18px;
+  margin-bottom: 30px;
+}
+main .section3 .container .section3-container .section3-cards .card2 p {
+  width: 180px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
   text-transform: capitalize;
-  text-decoration: underline;
-  text-decoration-style: solid;
-  text-decoration-offset: 0%;
-  text-decoration-thickness: 0%;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+main .section3 .container .section3-container .section3-cards .card2 a {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+main .section3 .container .section3-container .section3-cards .card3 {
+  text-align: center;
+}
+main .section3 .container .section3-container .section3-cards .card3 img {
+  background: rgba(109, 109, 109, 0.3019607843);
+  border-radius: 100px;
+  padding: 18px;
+  margin-bottom: 30px;
+}
+main .section3 .container .section3-container .section3-cards .card3 p {
+  width: 195px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+main .section3 .container .section3-container .section3-cards .card3 a {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+main .section3 .container .section3-container .section3-cards .card4 {
+  text-align: center;
+}
+main .section3 .container .section3-container .section3-cards .card4 img {
+  background: rgba(109, 109, 109, 0.3019607843);
+  border-radius: 100px;
+  padding: 18px;
+  margin-bottom: 30px;
+}
+main .section3 .container .section3-container .section3-cards .card4 p {
+  width: 250px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+main .section3 .container .section3-container .section3-cards .card4 a {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
 }/*# sourceMappingURL=main.css.map */
