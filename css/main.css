@@ -315,4 +315,10 @@ main .section3 .container .section3-container .section3-cards .card4 a {
   line-height: 100%;
   letter-spacing: 0%;
   text-align: center;
+}
+main .section4 .container .section4-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 60px;
 }/*# sourceMappingURL=main.css.map */
