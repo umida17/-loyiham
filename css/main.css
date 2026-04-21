@@ -321,13 +321,63 @@ main .section4 .container .section4-container {
   align-items: center;
   justify-content: space-between;
   gap: 60px;
+  margin-bottom: 170px;
 }
-main .section4 .container .section4-container .section4-mers {
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
   display: flex;
   align-items: center;
   gap: 15px;
 }
-main .section4 .container .section4-container .section4-mers h2 {
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
   font-weight: 500;
   font-size: 25px;
   line-height: 100%;
