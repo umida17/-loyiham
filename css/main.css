@@ -760,4 +760,41 @@ main .section5 .container .section5-title .electiromobil .est {
   line-height: 23px;
   letter-spacing: 0%;
   color: rgba(255, 255, 255, 0.8);
+}
+main .section6 .container .section6-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main .section6 .container .section6-container .section6-aloqa h4 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+main .section6 .container .section6-container .section6-aloqa .Amet {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  width: 500px;
+  margin-bottom: 68px;
+}
+main .section6 .container .section6-container .section6-aloqa a {
+  display: flex;
+  align-items: center;
+  padding: 38px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  border-bottom: 1px solid #4A4A4A;
+}
+main .section6 .container .section6-container .section6-aloqa button {
+  border: 1px solid #F4C430;
+  border-radius: 100px;
 }/*# sourceMappingURL=main.css.map */
