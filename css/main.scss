@@ -882,7 +882,7 @@ main{
             .section6-container{
                 display: flex;
                 align-items: center;
-                justify-content: space-between;
+                gap: 135px;
                 .section6-aloqa{
                     h4{
                          font-weight: 600;
@@ -914,8 +914,35 @@ main{
                     }
                     button{
                         border: 1px solid #F4C430;
+                        background: none;
                         border-radius: 100px;
+                        padding-top: 25px;
+                        padding-bottom: 25px;
+                        padding-left: 100px;
+                        padding-right: 100px;
+                         font-weight: 500;
+                         font-size: 20px;
+                         line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #FFFFFF;
+                        margin-top: 60px;
+                        margin-bottom: 60px;
                     }
+                    button:hover{
+                         border: 1px solid #207ae1;
+                          border-radius: 100px;
+                          color: #207ae1;
+                    }
+                }
+
+
+
+                .adres{
+                    border: 1px solid #2F2F2F;
+                    background: #2F2F2F;
+                    width: 520px;
+                    height: 570px;
+                    margin-top: 190px;
                 }
             }
         }
