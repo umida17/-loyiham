@@ -184,4 +184,23 @@ main .section2 .container .section2-container .section2-kabralet a {
 }
 main .section2 .container .section2-container .section2-kabralet a:hover {
   color: #F4C430;
+}
+main .section3 .container .section3-container .section3-nashi {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8705882353);
+  text-align: center;
+  margin-bottom: 27px;
+}
+main .section3 .container .section3-container p {
+  width: 500px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6784313725);
+  margin: 0 auto;
 }/*# sourceMappingURL=main.css.map */
