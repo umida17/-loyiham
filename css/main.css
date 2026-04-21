@@ -12,10 +12,16 @@
   padding: 15px;
 }
 
-body {
-  background: rgb(19, 19, 19);
+header {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  box-shadow: 10px 10px 10px rgb(32, 32, 32);
+  background: rgb(58, 58, 58);
+  z-index: 999999;
+  height: 105px;
 }
-
 header .container .header-container {
   display: flex;
   align-items: center;
@@ -34,7 +40,7 @@ header .container .header-container .header-list .header-home {
   color: rgba(255, 255, 255, 0.8980392157);
 }
 header .container .header-container .header-list .header-home:hover {
-  color: black;
+  color: #F4C430;
 }
 header .container .header-container .header-boglanish {
   display: flex;
@@ -44,4 +50,70 @@ header .container .header-container .header-boglanish {
 header .container .header-container .header-boglanish .language {
   border: none;
   background: none;
+  color: rgba(255, 255, 255, 0.8980392157);
+}
+header .container .header-container .header-boglanish .language .option {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8980392157);
+}
+header .container .header-container .header-boglanish .frame {
+  width: 18px;
+  height: 18px;
+}
+header .container .header-container .header-boglanish .svyaz {
+  border: 1px solid #F4C430;
+  border-radius: 100px;
+  padding: 13px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+header .container .header-container .header-boglanish .svyaz:hover {
+  color: #F4C430;
+  border: 1px solid #050505;
+  border-radius: 100px;
+}
+
+main .section1 {
+  height: 690px;
+  background-image: url("../img/bg4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-top: 105px;
+}
+main .section1 .container .section1-container {
+  text-align: center;
+  margin-top: 290px;
+}
+main .section1 .container .section1-container a {
+  border: 1px solid #F4C430;
+  color: #FFFFFF;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  border-radius: 100px;
+}
+main .section1 .container .section1-container a:hover {
+  border: 3px solid #195cd8;
+  color: #195cd8;
+  border-radius: 100px;
+}
+main .section1 .container .strelka {
+  display: flex;
+  align-items: end;
+  justify-content: center;
+}
+main .section1 .container .strelka img {
+  margin-top: 290px;
 }/*# sourceMappingURL=main.css.map */
