@@ -12,6 +12,10 @@
   padding: 15px;
 }
 
+body {
+  background: rgb(23, 23, 23);
+}
+
 header {
   position: fixed;
   left: 0;
@@ -116,4 +120,65 @@ main .section1 .container .strelka {
 }
 main .section1 .container .strelka img {
   margin-top: 290px;
+}
+main .section2 .container .section2-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 100px;
+  margin-top: 87px;
+  margin-bottom: 180px;
+}
+main .section2 .container .section2-container .model h2 {
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8705882353);
+  margin-bottom: 15px;
+}
+main .section2 .container .section2-container .model p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  width: 380px;
+  margin-bottom: 120px;
+}
+main .section2 .container .section2-container .model .com {
+  margin-left: 270px;
+}
+main .section2 .container .section2-container .section2-kabralet .section2-chiziqcha {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 25px;
+}
+main .section2 .container .section2-container .section2-kabralet .section2-chiziqcha h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+main .section2 .container .section2-container .section2-kabralet .section2-chiziqcha .seo {
+  border-right: 2px solid #F4C430;
+  background: #F4C430;
+  width: 37px;
+  height: 2px;
+}
+main .section2 .container .section2-container .section2-kabralet a {
+  display: flex;
+  align-items: end;
+  justify-content: end;
+  padding: 10px;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.6784313725);
+}
+main .section2 .container .section2-container .section2-kabralet a:hover {
+  color: #F4C430;
 }/*# sourceMappingURL=main.css.map */

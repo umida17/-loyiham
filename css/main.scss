@@ -12,9 +12,9 @@
         padding: 15px;
     }
 
-// body{
-//  background: rgb(19, 19, 19);
-// }
+body{
+ background: rgb(23, 23, 23);
+}
 
 header{
      position: fixed;
@@ -130,5 +130,77 @@ main{
              }
              }
          }
+    }
+
+    .section2{
+        .container{
+            .section2-container{
+                display: flex;
+                align-items: center;
+                justify-content: space-between;
+                gap: 100px;
+                margin-top: 87px;
+                margin-bottom: 180px;
+                .model{
+                    h2{
+                        font-weight: 600;
+                        font-size: 40px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #FFFFFFDE;
+                        margin-bottom: 15px;
+                    }
+                    p{
+                         font-weight: 500;
+                         font-size: 16px;
+                         line-height: 23px;
+                        letter-spacing: 0%;
+                        color: #FFFFFF;
+                        width: 380px;
+                        margin-bottom: 120px;
+                    }
+                    .com{
+                       margin-left: 270px;
+                    }
+                }
+
+                .section2-kabralet{
+                    .section2-chiziqcha{
+                        display: flex;
+                        align-items: center;
+                        gap: 14px;
+                        margin-bottom: 25px;
+                         h3{
+                        font-weight: 700;
+                        font-size: 30px;
+                        line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #FFFFFF;
+                       
+                    }
+                    .seo{
+                         border-right: 2px solid #F4C430;
+                         background: #F4C430;
+                         width: 37px;
+                         height: 2px;
+                    }
+                    }
+                    a{
+                        display: flex;
+                        align-items: end;
+                        justify-content: end;
+                        padding: 10px;
+                         font-weight: 500;
+                         font-size: 25px;
+                         line-height: 100%;
+                        letter-spacing: 0%;
+                        color: #FFFFFFAD;
+                    }
+                    a:hover{
+                        color: #F4C430;
+                    }
+                }
+            }
+        }
     }
 }
