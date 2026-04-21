@@ -121,9 +121,6 @@ main .section1 .container .strelka {
 main .section1 .container .strelka img {
   margin-top: 290px;
 }
-main .section2 .vec {
-  margin-top: -490px;
-}
 main .section2 .container .section2-container {
   display: flex;
   align-items: center;
