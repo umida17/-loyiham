@@ -835,6 +835,7 @@ main{
                 .electiromobil{
                     box-shadow: 0px 15px 30px 0px #00000000;
                     background: #4A4A4A;
+                     transition: all 0.6 ease-in-out;
                     img{
                         width: 100%;
                     }
@@ -843,7 +844,7 @@ main{
                         align-items: center;
                         justify-content: space-between;
                         padding: 20px;
-                        transition: all 0.6 ease-in-out;
+                        
                         .chazor{
                             font-weight: 600;
                             font-size: 23px;
@@ -871,6 +872,9 @@ main{
                         letter-spacing: 0%;
                         color: #FFFFFFCC;
                     }
+                }
+                .electiromobil:hover{
+                    transform: translateY(-20px);
                 }
             }
         }
