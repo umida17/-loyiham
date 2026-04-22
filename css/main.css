@@ -182,6 +182,7 @@ main .section2 .container .section2-container .section2-kabralet a {
 }
 main .section2 .container .section2-container .section2-kabralet a:hover {
   color: #F4C430;
+  transform: translate(-50px);
 }
 main .section3 .container .section3-container .section3-nashi {
   font-weight: 600;
