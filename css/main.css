@@ -726,7 +726,7 @@ main .section5 .container .section5-title {
 main .section5 .container .section5-title .electiromobil {
   box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0);
   background: #4A4A4A;
-  transition: all 0.6 ease-in-out;
+  transition: all 0.7s ease-in-out;
 }
 main .section5 .container .section5-title .electiromobil img {
   width: 100%;
