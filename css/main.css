@@ -83,225 +83,846 @@ header .container .header-container .header-boglanish .svyaz:hover {
   border-radius: 100px;
 }
 
-main {
-  /* SECTION 1 */
-}
 main .section1 {
   height: 690px;
-  background: url("../img/bg4.png") center/cover no-repeat;
+  background-image: url("../img/bg4.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
   margin-top: 105px;
 }
-main .section1 .section1-container {
+main .section1 .container .section1-container {
   text-align: center;
   margin-top: 290px;
 }
-main .section1 .section1-container a {
+main .section1 .container .section1-container a {
   border: 1px solid #F4C430;
-  color: #fff;
-  padding: 15px 22px;
+  color: #FFFFFF;
+  padding-left: 22px;
+  padding-right: 22px;
+  padding-top: 15px;
+  padding-bottom: 15px;
+  font-weight: 500;
+  font-size: 15px;
+  line-height: 100%;
+  letter-spacing: 0%;
   border-radius: 100px;
-  transition: 0.3s;
 }
-main .section1 .section1-container a:hover {
-  border: 2px solid #195cd8;
+main .section1 .container .section1-container a:hover {
+  border: 3px solid #195cd8;
   color: #195cd8;
+  border-radius: 100px;
 }
-main .section1 .strelka {
+main .section1 .container .strelka {
   display: flex;
+  align-items: end;
   justify-content: center;
+}
+main .section1 .container .strelka img {
   margin-top: 290px;
 }
-main .section1 .strelka img {
-  animation: bounce 2s infinite;
-}
-main {
-  /* SECTION 2 */
-}
-main .section2 {
-  margin: 100px 0;
-}
-main .section2 .section2-container {
+main .section2 .container .section2-container {
   display: flex;
+  align-items: center;
   justify-content: space-between;
   gap: 100px;
+  margin-top: 87px;
+  margin-bottom: 180px;
 }
-main .section2 .section2-container .model h2 {
+main .section2 .container .section2-container .model h2 {
+  font-weight: 600;
   font-size: 40px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8705882353);
   margin-bottom: 15px;
 }
-main .section2 .section2-container .model p {
+main .section2 .container .section2-container .model p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
   width: 380px;
-  margin-bottom: 80px;
+  margin-bottom: 120px;
 }
-main .section2 .section2-container .section2-kabralet a {
-  display: block;
-  font-size: 22px;
+main .section2 .container .section2-container .model .com {
+  margin-left: 270px;
+}
+main .section2 .container .section2-container .section2-kabralet .section2-chiziqcha {
+  display: flex;
+  align-items: center;
+  gap: 14px;
+  margin-bottom: 25px;
+}
+main .section2 .container .section2-container .section2-kabralet .section2-chiziqcha h3 {
+  font-weight: 700;
+  font-size: 30px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+main .section2 .container .section2-container .section2-kabralet .section2-chiziqcha .seo {
+  border-right: 2px solid #F4C430;
+  background: #F4C430;
+  width: 37px;
+  height: 2px;
+}
+main .section2 .container .section2-container .section2-kabralet a {
+  display: flex;
+  align-items: end;
+  justify-content: end;
   padding: 10px;
-  color: #fff;
-  transition: 0.3s;
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.6784313725);
 }
-main .section2 .section2-container .section2-kabralet a:hover {
+main .section2 .container .section2-container .section2-kabralet a:hover {
   color: #F4C430;
-  transform: translateX(10px);
 }
-main {
-  /* SECTION 3 */
+main .section3 .container .section3-container .section3-nashi {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8705882353);
+  text-align: center;
+  margin-bottom: 27px;
 }
-main .section3 {
+main .section3 .container .section3-container .non {
+  width: 500px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6784313725);
+  margin: 0 auto;
+}
+main .section3 .container .section3-container .section3-cards {
+  margin-top: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 50px;
+  margin-bottom: 150px;
+}
+main .section3 .container .section3-container .section3-cards .card {
+  text-align: center;
+  border-right: 1px solid #4A4A4A;
+  padding: 40px;
+}
+main .section3 .container .section3-container .section3-cards .card img {
+  background: rgba(109, 109, 109, 0.3019607843);
+  border-radius: 100px;
+  padding: 18px;
+  margin-bottom: 30px;
+}
+main .section3 .container .section3-container .section3-cards .card p {
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 60px;
+}
+main .section3 .container .section3-container .section3-cards .card a {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
   text-align: center;
 }
-main .section3 .section3-nashi {
-  font-size: 50px;
-  margin-bottom: 20px;
-}
-main .section3 .non {
-  width: 500px;
-  margin: 0 auto;
-  margin-bottom: 80px;
-}
-main .section3 .section3-cards {
-  display: flex;
-  gap: 30px;
-  justify-content: center;
-}
-main .section3 .section3-cards .card {
+main .section3 .container .section3-container .section3-cards .card2 {
+  text-align: center;
+  border-right: 1px solid #4A4A4A;
   padding: 40px;
-  border-right: 1px solid #444;
-  transition: 0.4s;
 }
-main .section3 .section3-cards .card img {
+main .section3 .container .section3-container .section3-cards .card2 img {
   background: rgba(109, 109, 109, 0.3019607843);
-  border-radius: 50%;
+  border-radius: 100px;
   padding: 18px;
-  margin-bottom: 20px;
+  margin-bottom: 30px;
 }
-main .section3 .section3-cards .card:hover {
-  transform: translateY(-10px);
-  box-shadow: 0 10px 30px rgba(0, 0, 0, 0.4);
+main .section3 .container .section3-container .section3-cards .card2 p {
+  width: 180px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 30px;
 }
-main {
-  /* SECTION 4 (ENG KATTA TOZALASH) */
+main .section3 .container .section3-container .section3-cards .card2 a {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
 }
-main .section4 {
-  margin: 150px 0;
+main .section3 .container .section3-container .section3-cards .card3 {
+  text-align: center;
+  border-right: 1px solid #4A4A4A;
+  padding: 40px;
 }
-main .section4 .section4-container {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-  gap: 20px;
+main .section3 .container .section3-container .section3-cards .card3 img {
+  background: rgba(109, 109, 109, 0.3019607843);
+  border-radius: 100px;
+  padding: 18px;
+  margin-bottom: 30px;
 }
-main .section4 .section4-container .section4-mers {
+main .section3 .container .section3-container .section3-cards .card3 p {
+  width: 195px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+main .section3 .container .section3-container .section3-cards .card3 a {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+main .section3 .container .section3-container .section3-cards .card4 {
+  text-align: center;
+}
+main .section3 .container .section3-container .section3-cards .card4 img {
+  background: rgba(109, 109, 109, 0.3019607843);
+  border-radius: 100px;
+  padding: 18px;
+  margin-bottom: 30px;
+}
+main .section3 .container .section3-container .section3-cards .card4 p {
+  width: 250px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0%;
+  text-align: center;
+  text-transform: capitalize;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+main .section3 .container .section3-container .section3-cards .card4 a {
+  font-weight: 400;
+  font-size: 17px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  text-align: center;
+}
+main .section4 .container .section4-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 30px;
+  margin-bottom: 170px;
+}
+main .section4 .container .section4-container .work .section4-mers {
   display: flex;
   align-items: center;
   gap: 15px;
-  padding: 15px;
-  background: #1e1e1e;
-  border-radius: 10px;
-  transition: 0.3s;
+  padding: 10px;
 }
-main .section4 .section4-container .section4-mers h2 {
-  font-size: 22px;
-  color: #ccc;
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
 }
-main .section4 .section4-container .section4-mers:hover {
-  background: #F4C430;
-}
-main .section4 .section4-container .section4-mers:hover h2 {
-  color: black;
-}
-main {
-  /* SECTION 5 */
-}
-main .section5 {
-  text-align: center;
-}
-main .section5 .yangilik {
-  font-size: 50px;
-  margin-bottom: 20px;
-}
-main .section5 .dora {
-  width: 500px;
-  margin: 0 auto 70px;
-}
-main .section5 .section5-title {
+main .section4 .container .section4-container .work .section4-mers {
   display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 10px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers h2:hover {
+  color: #F4C430;
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section4 .container .section4-container .work .section4-mers {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+main .section4 .container .section4-container .work .section4-mers h2 {
+  font-weight: 500;
+  font-size: 25px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section5 .container .section5-container .yangilik {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8705882353);
+  text-align: center;
+  margin-bottom: 30px;
+}
+main .section5 .container .section5-container .dora {
+  width: 500px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #FFFFFF;
+  margin: 0 auto;
+  margin-bottom: 70px;
+}
+main .section5 .container .section5-title {
+  display: flex;
+  align-items: center;
   gap: 20px;
-  justify-content: center;
+  margin-bottom: 180px;
 }
-main .section5 .section5-title .electiromobil {
-  background: #2a2a2a;
-  border-radius: 10px;
-  overflow: hidden;
-  transition: 0.3s;
+main .section5 .container .section5-title .electiromobil {
+  box-shadow: 0px 15px 30px 0px rgba(0, 0, 0, 0);
+  background: #4A4A4A;
 }
-main .section5 .section5-title .electiromobil:hover {
-  transform: scale(1.05);
-}
-main .section5 .section5-title .electiromobil img {
+main .section5 .container .section5-title .electiromobil img {
   width: 100%;
 }
-main .section5 .section5-title .electiromobil .text {
+main .section5 .container .section5-title .electiromobil .text {
   display: flex;
+  align-items: center;
   justify-content: space-between;
-  padding: 15px;
-}
-main .section5 .section5-title .electiromobil .est {
-  padding: 15px;
-}
-main {
-  /* SECTION 6 */
-}
-main .section6 {
-  margin: 150px 0;
-}
-main .section6 .section6-container {
-  display: flex;
-  gap: 100px;
-  flex-wrap: wrap;
-}
-main .section6 .section6-container .section6-aloqa h4 {
-  font-size: 50px;
-}
-main .section6 .section6-container .section6-aloqa a {
-  display: block;
   padding: 20px;
-  border-bottom: 1px solid #444;
 }
-main .section6 .section6-container .section6-aloqa button {
-  margin-top: 40px;
-  padding: 20px 80px;
+main .section5 .container .section5-title .electiromobil .text .chazor {
+  font-weight: 600;
+  font-size: 23px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+main .section5 .container .section5-title .electiromobil .text .sana {
+  font-weight: 400;
+  font-size: 15px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.6784313725);
+}
+main .section5 .container .section5-title .electiromobil .est {
+  padding: 20px;
+  width: 340px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 23px;
+  letter-spacing: 0%;
+  color: rgba(255, 255, 255, 0.8);
+}
+main .section6 .container .section6-container {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 135px;
+}
+main .section6 .container .section6-container .section6-aloqa h4 {
+  font-weight: 600;
+  font-size: 50px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 30px;
+}
+main .section6 .container .section6-container .section6-aloqa .Amet {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  width: 500px;
+  margin-bottom: 68px;
+}
+main .section6 .container .section6-container .section6-aloqa a {
+  display: flex;
+  align-items: center;
+  padding: 38px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  border-bottom: 1px solid #4A4A4A;
+}
+main .section6 .container .section6-container .section6-aloqa button {
   border: 1px solid #F4C430;
-  border-radius: 100px;
   background: none;
-  color: #fff;
-  transition: 0.3s;
+  border-radius: 100px;
+  padding-top: 25px;
+  padding-bottom: 25px;
+  padding-left: 100px;
+  padding-right: 100px;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-top: 60px;
+  margin-bottom: 60px;
 }
-main .section6 .section6-container .section6-aloqa button:hover {
-  border-color: #207ae1;
+main .section6 .container .section6-container .section6-aloqa button:hover {
+  border: 1px solid #207ae1;
+  border-radius: 100px;
   color: #207ae1;
 }
-main .section6 .section6-container .adres {
+main .section6 .container .section6-container .adres {
+  border: 1px solid #2F2F2F;
   background: #2F2F2F;
-  padding: 40px;
-  border-radius: 10px;
+  width: 520px;
+  height: 590px;
+  margin-top: 190px;
 }
-main {
-  /* SECTION 7 */
+main .section6 .container .section6-container .adres .sergiliy {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding: 50px;
+  margin-bottom: 40px;
+}
+main .section6 .container .section6-container .adres .sergiliy .rayon .rayon1 {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  margin-bottom: 10px;
+  color: #FFFFFF;
+}
+main .section6 .container .section6-container .adres .sergiliy .rayon .rayon2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+}
+main .section6 .container .section6-container .adres .ish-vaqti {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
+main .section6 .container .section6-container .adres .ish-vaqti .ish-kuni .grafik {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 10px;
+}
+main .section6 .container .section6-container .adres .ish-vaqti .ish-kuni .kun {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+main .section6 .container .section6-container .adres .ish-vaqti .ish-kuni .kun1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 27px;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+main .section6 .container .section6-container .adres .nomer {
+  display: flex;
+  align-items: center;
+  gap: 25px;
+  padding-left: 50px;
+  padding-right: 50px;
+  margin-bottom: 50px;
+}
+main .section6 .container .section6-container .adres .nomer .tel .prodaj {
+  font-weight: 600;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 15px;
+}
+main .section6 .container .section6-container .adres .nomer .tel .tel1 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+main .section6 .container .section6-container .adres .nomer .tel .tel2 {
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 100%;
+  letter-spacing: 0%;
+  color: #FFFFFF;
+  margin-bottom: 5px;
+}
+main .section6 .container .section6-container .adres .tarmoq {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 25px;
 }
 main .section7 {
+  background-image: url("../img/lacation.png");
   height: 500px;
-  background: url("../img/lacation.png") center/cover no-repeat;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  margin-bottom: 50px;
 }
 
-/* ANIMATION */
-@keyframes bounce {
-  0%, 100% {
-    transform: translateY(0);
-  }
-  50% {
-    transform: translateY(15px);
-  }
-}
 footer .container .finish {
   text-align: center;
   padding-bottom: 50px;
