@@ -178,6 +178,7 @@ main .section2 .container .section2-container .section2-kabralet a {
   line-height: 100%;
   letter-spacing: 0%;
   color: rgba(255, 255, 255, 0.6784313725);
+  transition: 0.6s ease-in-out;
 }
 main .section2 .container .section2-container .section2-kabralet a:hover {
   color: #F4C430;
