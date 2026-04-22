@@ -947,6 +947,7 @@ main{
                     width: 520px;
                     height: 590px;
                     margin-top: 190px;
+                    transition: all 0.6s ease-in-out;
                     
                    .sergiliy{
                     display: flex;
@@ -1054,6 +1055,9 @@ main{
                     gap: 25px;
                     
                    }
+                }
+                .adres:hover{
+                    transform: translateY(-50px);
                 }
             }
         }

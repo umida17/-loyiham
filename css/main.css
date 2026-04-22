@@ -825,6 +825,7 @@ main .section6 .container .section6-container .adres {
   width: 520px;
   height: 590px;
   margin-top: 190px;
+  transition: all 0.6s ease-in-out;
 }
 main .section6 .container .section6-container .adres .sergiliy {
   display: flex;
@@ -917,6 +918,9 @@ main .section6 .container .section6-container .adres .tarmoq {
   align-items: center;
   justify-content: center;
   gap: 25px;
+}
+main .section6 .container .section6-container .adres:hover {
+  transform: translateY(-50px);
 }
 main .section7 {
   background-image: url("../img/lacation.png");
